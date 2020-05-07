@@ -3,6 +3,6 @@ contact_links:
   - name: Ask a question
     url: https://forum.syncthing.net/
     about: Ask questions and discuss with other community members
-  - name: Issue on Android
+  - name: Android issues
     url: https://github.com/syncthing/syncthing-android/issues/
     about: The Android app has its own issue tracker
