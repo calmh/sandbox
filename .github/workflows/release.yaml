@@ -1,0 +1,19 @@
+name: Release develop to main
+
+on:
+  - workflow_dispatch
+
+jobs:
+  mirror:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - run: |
+          git switch main
+          git merge --no-ff -m 'Release develop to main' develop
+          git push origin main
+          git switch develop
+          git merge --no-ff -m 'Merge release from main' main
+          git push origin develop
