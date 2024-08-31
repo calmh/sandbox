@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.4.0](https://github.com/calmh/sandbox/compare/v1.3.1...v1.4.0) (2024-08-31)
+
+
+### Features
+
+* config ([71b4f83](https://github.com/calmh/sandbox/commit/71b4f8377f9310f45d2fc845c25318abeb19eee6))
+
 ## [1.3.1](https://github.com/calmh/sandbox/compare/v1.3.1...v1.3.1) (2024-08-31)
 
 

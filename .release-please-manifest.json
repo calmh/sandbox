@@ -2,5 +2,6 @@
     "draft": true,
     "version-file": "version.txt",
     "pull-request-header": "",
-    "pull-request-footer": ""
+    "pull-request-footer": "",
+    ".": "1.4.0"
 }
