@@ -30,7 +30,7 @@ jobs:
 
       - run: |
           echo Building
-          echo Version ${{ steps.release-please.outputs.version }}
+          echo release_created ${{ steps.release-please.outputs.release_created }}
           echo Major ${{ steps.release-please.outputs.major }}
           echo Minor ${{ steps.release-please.outputs.minor }}
           echo Patch ${{ steps.release-please.outputs.patch }}
