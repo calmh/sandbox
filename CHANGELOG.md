@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.3.1](https://github.com/calmh/sandbox/compare/v1.3.1...v1.3.1) (2024-08-31)
+
+
+### Build System
+
+* a build fix that we need to re-release ([0f6d6d9](https://github.com/calmh/sandbox/commit/0f6d6d9b3b133a85e66c5e8c5aee8b7b73623e67))
+
 ## [1.3.1](https://github.com/calmh/sandbox/compare/v1.3.0...v1.3.1) (2024-08-31)
 
 
