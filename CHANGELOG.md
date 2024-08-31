@@ -1,5 +1,17 @@
 # Changelog
 
+## [1.3.1](https://github.com/calmh/sandbox/compare/v1.3.0...v1.3.1) (2024-08-31)
+
+
+### Features
+
+* **newfile2:** add hej ([3f061bd](https://github.com/calmh/sandbox/commit/3f061bd05a4e9b5e8a8253a6208e51b1dc5c5fca))
+
+
+### Bug Fixes
+
+* actually fix ([0cefdb4](https://github.com/calmh/sandbox/commit/0cefdb49cb612510ca503d7d7f0f2cc1e8670ac9))
+
 ## [1.3.0](https://github.com/calmh/sandbox/compare/v1.2.0...v1.3.0) (2024-08-31)
 
 
