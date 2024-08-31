@@ -1,5 +1,5 @@
 {
+    "plugins": ["sentence-case"],
     "pull-request-header": "hdr",
-    "pull-request-footer": "ftr",
-    "sentence-case": true
+    "pull-request-footer": "ftr"
 }
