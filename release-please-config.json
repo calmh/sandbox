@@ -3,11 +3,11 @@
         "sentence-case"
     ],
     "release-type": "simple",
-    "pull-request-header": "hdr",
-    "pull-request-footer": "ftr",
+    "pull-request-header": "",
+    "pull-request-footer": "",
+    "pull-request-title-pattern": "chore: release ${version}",
     "packages": {
         ".": {
-    "pull-request-title-pattern": "release: release-please ${version}"
         }
     }
 }
