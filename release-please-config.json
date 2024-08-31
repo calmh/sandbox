@@ -2,6 +2,7 @@
     "plugins": [
         "sentence-case"
     ],
+    "release-type": "simple",
     "pull-request-header": "hdr",
     "pull-request-footer": "ftr",
     "packages": {
