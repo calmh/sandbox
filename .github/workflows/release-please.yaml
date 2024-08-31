@@ -13,7 +13,7 @@ jobs:
   release-please:
     runs-on: ubuntu-latest
     steps:
-      - id: release-please
+      - id: release
         uses: googleapis/release-please-action@v4
         with:
           # this assumes that you have created a personal access token
@@ -30,7 +30,8 @@ jobs:
 
       - run: |
           echo Building
-          echo release_created ${{ steps.release-please.outputs.release_created }}
-          echo Major ${{ steps.release-please.outputs.major }}
-          echo Minor ${{ steps.release-please.outputs.minor }}
-          echo Patch ${{ steps.release-please.outputs.patch }}
+          echo  ${{join(steps.release.outputs.*, '\n')}}
+          echo release_created ${{ steps.release.outputs.release_created }}
+          echo Major ${{ steps.release.outputs.major }}
+          echo Minor ${{ steps.release.outputs.minor }}
+          echo Patch ${{ steps.release.outputs.patch }}
