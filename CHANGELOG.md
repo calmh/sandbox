@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.3.0](https://github.com/calmh/sandbox/compare/v1.2.0...v1.3.0) (2024-08-31)
+
+
+### Features
+
+* add build step ([a7845c0](https://github.com/calmh/sandbox/commit/a7845c0ece761e82d2834474a51d6a7205cee49c))
+
 ## [1.2.0](https://github.com/calmh/sandbox/compare/v1.1.0...v1.2.0) (2024-08-31)
 
 
