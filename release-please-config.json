@@ -5,6 +5,8 @@
     "pull-request-header": "hdr",
     "pull-request-footer": "ftr",
     "packages": {
-        ".": {}
+        ".": {
+    "pull-request-title-pattern": "release: release-please ${version}"
+        }
     }
 }
