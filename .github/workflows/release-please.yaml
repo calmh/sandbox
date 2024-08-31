@@ -22,3 +22,10 @@ jobs:
           # this is a built-in strategy in release-please, see "Action Inputs"
           # for more options
           release-type: simple
+
+      - run: |
+          echo Building
+          echo Version ${{ steps.release-please.outputs.version }}
+          echo Major ${{ steps.release-please.outputs.major }}
+          echo Minor ${{ steps.release-please.outputs.minor }}
+          echo Patch ${{ steps.release-please.outputs.patch }}
