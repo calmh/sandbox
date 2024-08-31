@@ -6,6 +6,5 @@
     "pull-request-footer": "ftr",
     "packages": {
         ".": {}
-    },
-    "pull-request-title-pattern": "release: release-please ${version}"
+    }
 }

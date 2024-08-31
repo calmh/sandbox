@@ -1,3 +1,4 @@
 {
+    "pull-request-title-pattern": "release: release-please ${version}",
     ".": "1.4.0"
 }
