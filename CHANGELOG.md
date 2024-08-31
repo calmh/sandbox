@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.2.0](https://github.com/calmh/sandbox/compare/v1.1.0...v1.2.0) (2024-08-31)
+
+
+### Features
+
+* new file 2 ([5ad797a](https://github.com/calmh/sandbox/commit/5ad797ad77f884e9c2396d3a8ee2de51c1d7e6de))
+* new file number 3 ([8ca01a1](https://github.com/calmh/sandbox/commit/8ca01a1f9316eafd34cc763d33390476e431ccf0))
+
 ## [1.1.0](https://github.com/calmh/sandbox/compare/v1.0.1...v1.1.0) (2024-08-31)
 
 
