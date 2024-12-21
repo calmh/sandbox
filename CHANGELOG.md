@@ -1,5 +1,26 @@
 # Changelog
 
+## [1.5.0-rc.1](https://github.com/calmh/sandbox/compare/v1.4.0...v1.5.0-rc.1) (2024-12-21)
+
+
+### Features
+
+* Fix! ha! ([9698ecf](https://github.com/calmh/sandbox/commit/9698ecffe348f9c90484c90556977aa25ce622f8))
+
+
+### Bug Fixes
+
+* Asdf ([40b3d42](https://github.com/calmh/sandbox/commit/40b3d426524b9f3cb786c70fe6af94483e1ce148))
+* Config ([87f78cc](https://github.com/calmh/sandbox/commit/87f78ccddd84fd681a3a626c9f51fcea7c511038))
+* Plugins ([09ded4b](https://github.com/calmh/sandbox/commit/09ded4b133d227825edc267eba8b8292ab41a3d1))
+* Plugins ([e6b5944](https://github.com/calmh/sandbox/commit/e6b5944396b479a932989c78b2ff0e486f477e80))
+* Skip version.txt ([47308bb](https://github.com/calmh/sandbox/commit/47308bb0d0fc212e0707527381278d5f517e7924))
+
+
+### Miscellaneous Chores
+
+* Release 1.5.0-rc.1 ([c64bc26](https://github.com/calmh/sandbox/commit/c64bc26f1c627010bb85a226d80f0f005dcafbf3))
+
 ## [1.4.0](https://github.com/calmh/sandbox/compare/v1.3.1...v1.4.0) (2024-08-31)
 
 
