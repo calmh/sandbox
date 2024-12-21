@@ -2,6 +2,8 @@ on:
   push:
     branches:
     - main
+    tags:
+    - 'v*'
 
 permissions:
   contents: write
@@ -24,8 +26,9 @@ jobs:
           fetch-depth: 0
 
       - run: |
+          echo Version
+          git describe --tags --always
           echo Building
-          echo -en "${{join(steps.release.outputs.*, '\n')}}"
           echo release_created ${{ steps.release.outputs.release_created }}
           echo Major ${{ steps.release.outputs.major }}
           echo Minor ${{ steps.release.outputs.minor }}
