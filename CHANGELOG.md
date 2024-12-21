@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.5.1-rc.1](https://github.com/calmh/sandbox/compare/v1.5.0-rc.1...v1.5.1-rc.1) (2024-12-21)
+
+
+### Bug Fixes
+
+* Something ([084a6f1](https://github.com/calmh/sandbox/commit/084a6f17c584b3fb25eee086d725a7ce5c8c029f))
+
 ## [1.5.0-rc.1](https://github.com/calmh/sandbox/compare/v1.4.0...v1.5.0-rc.1) (2024-12-21)
 
 
