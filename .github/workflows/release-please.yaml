@@ -27,7 +27,7 @@ jobs:
 
       - run: |
           echo Version
-          git describe --tags --always
+          git describe --always
           echo Building
           echo release_created ${{ steps.release.outputs.release_created }}
           echo Major ${{ steps.release.outputs.major }}
