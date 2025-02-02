@@ -7,7 +7,13 @@
     "pull-request-footer": "",
     "pull-request-title-pattern": "chore: release ${version}",
     "packages": {
-        ".": {
+        "pkg/first": {
+            "release-type": "simple",
+            "package-name": "first"
+        },
+        "pkg/second": {
+            "release-type": "simple",
+            "package-name": "second"
         }
     }
 }
