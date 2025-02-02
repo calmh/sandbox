@@ -2,6 +2,7 @@
     "plugins": [
         "sentence-case"
     ],
+    "bootstrap-sha": "fadc13ef4050635130543498f66c88fe8df095f0",
     "packages": {
         "pkg/first": {
             "release-type": "simple",
