@@ -5,6 +5,16 @@ title: "Release x.y.z (planned date: ...)"
 body:
 
   - type: textarea
+    id: build
+    attributes:
+      label: Build no
+      description:
+        The build that we intend to release, and hence should be verifying on hardware devices
+      placeholder: "9000"
+    validations:
+      required: true
+
+  - type: textarea
     id: general
     attributes:
       label: General checks # this becomes a h3 in GitHub
