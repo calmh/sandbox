@@ -1,0 +1,66 @@
+name: Release checklist
+description: Create the checklist issue for a new release
+labels: ["type/release"]
+title: "Release x.y.z (planned date: ...)"
+body:
+
+  - type: textarea
+    id: general
+    attributes:
+      label: General checks
+      description:
+        The set of general checks to perform before release; you can leave
+        this section as-is, or add information if required.
+      value: |
+        ## App start and login
+        - [ ] from blank/reset device in simulator, on iOS
+        - [ ] from blank/reset device in simulator, on Android
+        - [ ] from existing installation on hardware device, on iOS
+        - [ ] from existing installation on hardware device, on Android
+        - [ ] in Chrome on staging
+        - [ ] in Safari on staging
+        - [ ] in Edge on staging
+
+        ## Non-privileged users
+        - [ ] log in and click around as a non-assessment user with only customised report access, file one customised report
+        - [ ] log in and click around as a non-assessment user with only task filing access, file one task
+
+        ## Basic functionality
+        - [ ] send one SNOWTAM, one RCR, and one ATIS message
+        - [ ] file one new task
+        - [ ] file one new customised report
+        - [ ] reset the aerodrome assessments
+
+        ## Password reset flow
+        - [ ] verify password reset on Android
+        - [ ] verify password reset on iOS
+        - [ ] verify password reset on Web (any browser)
+    validations:
+      required: true
+
+  - type: textarea
+    id: specific
+    attributes:
+      label: Specific checks
+      description:
+        Note if specific checks should be done for this release, due to
+        added or changed functionality
+      placeholder: |
+        ## Example new functionality
+        - [ ] check the gallery behavior with old photos
+        - [ ] verify user without privileges can file tasks
+        - ...
+
+  - type: textarea
+    id: notes
+    attributes:
+      label: Specific notes for the release
+      description:
+        Note if there are any particular requirements for the release,
+        things that need to be updated or migrated, dependencies on other
+        systems, ...
+      placeholder: |
+        ## Example new requirements
+        - [ ] all users must get new XYZ permission
+        - [ ] all aerodrome must get updated email credentials
+        - ...
