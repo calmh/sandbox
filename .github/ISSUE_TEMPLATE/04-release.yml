@@ -7,12 +7,12 @@ body:
   - type: textarea
     id: general
     attributes:
-      label: General checks
+      label: General checks # this becomes a h3 in GitHub
       description:
         The set of general checks to perform before release; you can leave
         this section as-is, or add information if required.
       value: |
-        ## App start and login
+        #### App start and login
         - [ ] from blank/reset device in simulator, on iOS
         - [ ] from blank/reset device in simulator, on Android
         - [ ] from existing installation on hardware device, on iOS
@@ -21,17 +21,17 @@ body:
         - [ ] in Safari on staging
         - [ ] in Edge on staging
 
-        ## Non-privileged users
+        #### Non-privileged users
         - [ ] log in and click around as a non-assessment user with only customised report access, file one customised report
         - [ ] log in and click around as a non-assessment user with only task filing access, file one task
 
-        ## Basic functionality
+        #### Basic functionality
         - [ ] send one SNOWTAM, one RCR, and one ATIS message
         - [ ] file one new task
         - [ ] file one new customised report
         - [ ] reset the aerodrome assessments
 
-        ## Password reset flow
+        #### Password reset flow
         - [ ] verify password reset on Android
         - [ ] verify password reset on iOS
         - [ ] verify password reset on Web (any browser)
@@ -46,7 +46,7 @@ body:
         Note if specific checks should be done for this release, due to
         added or changed functionality
       placeholder: |
-        ## Example new functionality
+        #### Example new functionality
         - [ ] check the gallery behavior with old photos
         - [ ] verify user without privileges can file tasks
         - ...
@@ -60,7 +60,7 @@ body:
         things that need to be updated or migrated, dependencies on other
         systems, ...
       placeholder: |
-        ## Example new requirements
+        #### Example new requirements
         - [ ] all users must get new XYZ permission
         - [ ] all aerodrome must get updated email credentials
         - ...
