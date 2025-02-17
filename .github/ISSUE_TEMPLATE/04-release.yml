@@ -4,7 +4,7 @@ labels: ["type/release"]
 title: "Release x.y.z (planned date: ...)"
 body:
 
-  - type: textarea
+  - type: input
     id: build
     attributes:
       label: Build no
